@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;400;500&display=swap');
+
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	font-family: 'Sora', sans-serif;
+}
+
+.heading {
+	font-size: 2.25rem;
+	font-weight: 500;
+}
+
+.body-text {
+	font-size: 1.25rem;
+	font-weight: 400;
+}
+
+.body-text-2 {
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+.list-item {
+	font-size: 0.875rem;
+	font-weight: 400;
+}
+
+main {
+	display: flex;
+	gap: 1.5rem;
+}
+
+section {
+	width: 560px;
+}
+
+.testimonial-info {
+
+}
+
+.testimonial-cards {
+
+}
+
+.list-item {
+	display: flex;
+	gap: 0.5rem;
+}
