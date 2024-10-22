@@ -90,9 +90,24 @@ ul {
 }
 
 .brand-rev {
-	margin-bottom: 30px;
+	margin-bottom: 25px;
+}
+
+.brand-rev img {
+	width: 100px;
+	height: 35px;
 }
 
 .name {
 	margin-bottom: 20px;
+}
+
+@media screen and (max-width: 640px) {
+	main {
+		flex-direction: column;
+		gap: 65px;
+	}
+	.testimonial-cards {
+		gap: 40px;
+	}
 }
