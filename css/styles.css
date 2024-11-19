@@ -24,7 +24,8 @@ body, h1, h2, h3, p, ul, li {
 }
 
 body {
-	min-height: 100vh;
+	height: 100vh;
+	width: 100vw;
 	font-family: 'Sora', sans-serif;
 	background-color: var(--color-background);
 }
@@ -58,6 +59,8 @@ main {
 	display: flex;
 	gap: 50px;
 	padding: 70px;
+	width: 100%;
+	height: 100%;
 }
 
 section {
@@ -141,6 +144,18 @@ ul {
 .name {
 	margin-bottom: 10px;
 	font-weight: 700;
+}
+
+@media screen and (min-width: 1149px) {
+	body {
+		display: flex;
+		justify-content: center;
+	}
+	main {
+		margin-top: 130px;
+		max-width: 1300px;
+		justify-content: center;
+	}
 }
 
 @media screen and (max-width: 1024px) {
